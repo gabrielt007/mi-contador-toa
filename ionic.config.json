@@ -1,0 +1,7 @@
+{
+  "name": "mi-contador-toa",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

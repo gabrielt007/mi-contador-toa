@@ -1,0 +1,135 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Multiplos de:
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+    
+  <div class="contador 1">
+    <strong>Gabriel Toaquiza fácil 2😼</strong>
+    <p>Valor Actual</p>
+    <h1>{{ contador1 }}</h1>
+    <ion-button 
+      color="danger",
+      [disabled]="contador1==0"
+      (click)="disminuir()">
+       - Disminuir -
+    </ion-button>
+    <ion-button 
+      
+      (click)="aumentar()">
+       - Aumentar -
+    </ion-button>
+    <ion-button 
+      expand="block"
+      color="medium",
+      (click)="reiniciar()">
+       - Reiniciar -
+    </ion-button>
+  </div>
+  <div class="contador 2">
+    <strong>Gabriel Toaquiza fácil 3😼</strong>
+    <p>Valor Actual</p>
+    <h1>{{ contador2 }}</h1>
+    <ion-button 
+      color="danger",
+      [disabled]="contador2==0"
+      (click)="disminuir2()">
+       - Disminuir -
+    </ion-button>
+    <ion-button 
+      
+      (click)="aumentar2()">
+       - Aumentar -
+    </ion-button>
+    <ion-button 
+      expand="block"
+      color="medium",
+      (click)="reiniciar2()">
+       - Reiniciar -
+    </ion-button>
+  </div>
+  <div class="contador 3">
+    <strong>Gabriel Toaquiza fácil 5😼</strong>
+    <p>Valor Actual</p>
+    <h1>{{ contador3 }}</h1>
+    <ion-button 
+      color="danger",
+      [disabled]="contador3==0"
+      (click)="disminuir3()">
+       - Disminuir -
+    </ion-button>
+    <ion-button 
+      
+      (click)="aumentar3()">
+       - Aumentar -
+    </ion-button>
+    <ion-button 
+      expand="block"
+      color="medium",
+      (click)="reiniciar3()">
+       - Reiniciar -
+    </ion-button>
+  </div>
+  <div class="contador 4">
+    <strong>Gabriel Toaquiza fácil 7😼</strong>
+    <p>Valor Actual</p>
+    <h1>{{ contador4 }}</h1>
+    <ion-button 
+      color="danger",
+      [disabled]="contador4==0"
+      (click)="disminuir4()">
+       - Disminuir -
+    </ion-button>
+    <ion-button 
+      
+      (click)="aumentar4()">
+       - Aumentar -
+    </ion-button>
+    <ion-button 
+      expand="block"
+      color="medium",
+      (click)="reiniciar4()">
+       - Reiniciar -
+    </ion-button>
+  </div>
+  <div class="contador 5">
+    <strong>Gabriel Toaquiza fácil 10😼</strong>
+    <p>Valor Actual</p>
+    <h1>{{ contador5 }}</h1>
+    <ion-button 
+      color="danger",
+      [disabled]="contador5==0"
+      (click)="disminuir5()">
+       - Disminuir -
+    </ion-button>
+    <ion-button 
+      
+      (click)="aumentar5()">
+       - Aumentar -
+    </ion-button>
+    <ion-button 
+      expand="block"
+      color="medium",
+      (click)="reiniciar5()">
+       - Reiniciar -
+    </ion-button>
+  </div>
+  <div class="primos">
+    <strong>Gabriel Toaquiza - Números Primos 😼</strong>
+    <p>Siguiente Primo</p>
+    <h1>{{ numeroPrimo }}</h1>
+    <ion-button 
+      color="danger"
+      [disabled]="numeroPrimo == 0"
+      (click)="reiniciarPrimo()">
+       - Reiniciar -
+    </ion-button>
+    <ion-button (click)="siguientePrimo()">
+       - Aumentar (Primo) -
+    </ion-button>
+  </div>
+</ion-content>
